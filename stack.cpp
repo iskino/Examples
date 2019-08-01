@@ -106,10 +106,10 @@ int main()
     }
 
     // выводим содержимое стека
-    while(!st.is_empty()) 
+    while(!stack.is_empty()) 
     {
-        std::cout << st.top() << std::endl;
-        st.pop();
+        std::cout << stack.top() << std::endl;
+        stack.pop();
     }
  
    return 0;
